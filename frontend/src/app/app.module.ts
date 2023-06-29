@@ -19,7 +19,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { InputContainerComponent } from './components/partials/input-container/input-container.component';
 import { TextInputComponent } from './components/partials/text-input/text-input.component';
 import { DefaultButtonComponent } from './components/partials/default-button/default-button.component';
-import { InputValidationComponent } from './components/partials/input-validation/input-validation.component'
+import { InputValidationComponent } from './components/partials/input-validation/input-validation.component';
+import { RegisterPageComponent } from './components/pages/register-page/register-page.component';
+import { LoadingComponent } from './components/partials/loading/loading.component';
+import { CheckoutPageComponent } from './components/pages/checkout-page/checkout-page.component';
+import { OrderItemsListComponent } from './components/partials/order-item-list/order-item-list.component';
+import { MapComponent } from './components/partials/map/map.component';
+import { PaymentPageComponent } from './components/pages/payment-page/payment-page.component';
+import { PaypalButtonComponent } from './components/partials/paypal-button/paypal-button.component';
+import { OrderTrackPageComponent } from './components/pages/order-track-page/order-track-page.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +45,15 @@ import { InputValidationComponent } from './components/partials/input-validation
     InputContainerComponent,
     TextInputComponent,
     DefaultButtonComponent,
-    InputValidationComponent
+    InputValidationComponent,
+    RegisterPageComponent,
+    LoadingComponent,
+    CheckoutPageComponent,
+    OrderItemsListComponent,
+    MapComponent,
+    PaymentPageComponent,
+    PaypalButtonComponent,
+    OrderTrackPageComponent
   ],
   imports: [
     BrowserModule,
