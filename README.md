@@ -11,7 +11,7 @@ Ezután ha a felhasználó rámegy a Proceed to payment gombra, egy összegzés 
 ># A projekt indítása
 
 1. Klónozás
-2. A backend mappában létre kell hozni egy .env fájlt, ahol meg kell adni a MONGODB URL-t.
+2. A backend/src mappában létre kell hozni egy .env fájlt, ahol meg kell adni a MONGODB URL-t.
 3. Függöségek letöltése az npm install segítségével
 4. Backend elindítása (npm start) (http://localhost:5000)
 5. Frontend elindítása (npm start) (http://localhost:4200)
